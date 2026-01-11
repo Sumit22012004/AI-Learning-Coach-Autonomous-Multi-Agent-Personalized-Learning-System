@@ -1,0 +1,2 @@
+# AI-Learning-Coach-Autonomous-Multi-Agent-Personalized-Learning-System
+AI Learning Coach is an autonomous multi-agent AI system designed to deliver personalized, adaptive learning for students and professionals. The system analyzes a learner’s current skill level, identifies knowledge gaps, generates a customized curriculum, assigns tasks, evaluates submitted answers, and continuously tracks progress.
