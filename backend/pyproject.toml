@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "ai-learning-coach-backend"
+version = "0.1.0"
+description = "Backend for AI Learning Coach"
+authors = ["AI Architect <architect@example.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.0"
+uvicorn = {extras = ["standard"], version = "^0.27.0"}
+motor = "^3.3.0"
+beanie = "^1.25.0"
+qdrant-client = "^1.7.0"
+langchain = "^0.1.0"
+langgraph = "^0.0.10"
+python-dotenv = "^1.0.0"
+openai = "^1.10.0"
+pydantic = "^2.6.0"
+pydantic-settings = "^2.1.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+httpx = "^0.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
